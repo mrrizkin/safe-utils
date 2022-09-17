@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.isErr = exports.isOk = exports.isNone = exports.isSome = exports.Err = exports.Ok = exports.None = exports.Some = void 0;
+var safe_utils_1 = require("./safe-utils");
+Object.defineProperty(exports, "Some", { enumerable: true, get: function () { return safe_utils_1.Some; } });
+Object.defineProperty(exports, "None", { enumerable: true, get: function () { return safe_utils_1.None; } });
+Object.defineProperty(exports, "Ok", { enumerable: true, get: function () { return safe_utils_1.Ok; } });
+Object.defineProperty(exports, "Err", { enumerable: true, get: function () { return safe_utils_1.Err; } });
+Object.defineProperty(exports, "isSome", { enumerable: true, get: function () { return safe_utils_1.isSome; } });
+Object.defineProperty(exports, "isNone", { enumerable: true, get: function () { return safe_utils_1.isNone; } });
+Object.defineProperty(exports, "isOk", { enumerable: true, get: function () { return safe_utils_1.isOk; } });
+Object.defineProperty(exports, "isErr", { enumerable: true, get: function () { return safe_utils_1.isErr; } });

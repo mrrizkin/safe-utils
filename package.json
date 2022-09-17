@@ -1,0 +1,21 @@
+{
+  "name": "safe-utils",
+  "version": "1.0.0",
+  "description": "Utility for runtime safety",
+  "author": "Rizki Nugraha",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nugrhrizki/safe-utils"
+  },
+  "type": "module",
+  "keywords": [
+    "safety runtime",
+    "safe-util"
+  ],
+  "main": "dist/index.js",
+  "type": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+}
